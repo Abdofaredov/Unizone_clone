@@ -38,6 +38,7 @@ dependencies:
   flutter_bloc: ^8.1.4
   bloc: ^8.1.3
   curved_labeled_navigation_bar: ^2.0.2
+  readmore: ^2.2.0
 dev_dependencies:
   flutter_lints: ^2.0.0
   flutter_test:
@@ -66,9 +67,28 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    # - family: Roboto
-    #   fonts:
-    #     - asset: assets/fonts/Roboto/RobotoFlex-VariableFont_wdth,wght.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto/RobotoFlex-VariableFont_wdth,wght.ttf
+        # - asset: fonts/Roboto/Roboto-Black.ttf
+        # - asset: fonts/Roboto/Roboto-BlackItalic.ttf
+        # - asset: fonts/Roboto/Roboto-Bold.ttf
+        # - asset: fonts/Roboto/Roboto-BoldItalic.ttf
+        # - asset: fonts/Roboto/Roboto-Italic.ttf
+        # - asset: fonts/Roboto/Roboto-Light.ttf
+        # - asset: fonts/Roboto/Roboto-LightItalic.ttf
+        # - asset: fonts/Roboto/Roboto-Medium.ttf
+        # - asset: fonts/Roboto/Roboto-MediumItalic.ttf
+        # - asset: fonts/Roboto/Roboto-Regular.ttf
+        # - asset: fonts/Roboto/Roboto-Thin.ttf
+        # - asset: fonts/Roboto/Roboto-ThinItalic.ttf
+    - family: Mulish
+      fonts:
+        - asset: fonts/Mulish/Mulish-VariableFont_wght.ttf
+    - family: NicoMoji
+      fonts:
+        - asset: fonts/NicoMoji/NicoMoji-Regular.ttf
+
     - family: IconBroken
       fonts:
         - asset: assets/fonts/icons.ttf
