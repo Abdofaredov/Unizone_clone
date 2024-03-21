@@ -49,11 +49,12 @@ class CustomPost extends StatelessWidget {
                           SizedBox(
                             width: 5,
                           ),
-                          Icon(
-                            Icons.check_circle,
-                            color: kPrimaryColor,
-                            size: 16,
-                          ),
+                          // Icon(
+                          //   Icons.check_circle,git commit -m "Your commit message here"
+
+                          //   color: kPrimaryColor,
+                          //   size: 16,
+                          // ),
                           Spacer(),
                           Text(
                             '2h',
