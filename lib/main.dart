@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:unizone/injection.dart';
 import 'package:unizone/layout/unizone_layout_cubit/unizone_layout_cubit.dart';
 import 'package:unizone/shared/bloc_observer.dart';
-import 'package:unizone/shared/constants/app_color.dart';
 import 'package:unizone/shared/constants/app_router.dart';
 
 Future<void> main() async {
